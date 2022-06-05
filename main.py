@@ -2,7 +2,7 @@ import requests, os
 
 def auth():
     os.system('cls')
-    url = 'https://pastebin.com/raw/zkgMJRa8'
+    url = 'https://pastebin.com/raw/'
    
     r = requests.get(url)
     
